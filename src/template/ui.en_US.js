@@ -9,6 +9,10 @@ const ui = {
     portfolio: 'Portfolio',
     testimonials: 'References'
   },
+  navMenu: {
+    showNav: 'Show navigation',
+    hideNav: 'Hide navigation'
+  },
   about: {
     title: 'About Me',
     subtitle: 'Contact Details'

@@ -10,6 +10,10 @@ const ui = {
     portfolio: '作品集',
     testimonials: '评价'
   },
+  navMenu: {
+    showNav: '显示导航',
+    hideNav: '隐藏导航'
+  },
   about: {
     title: 'About Me',
     subtitle: 'Contact Details'
