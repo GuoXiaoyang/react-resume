@@ -15,8 +15,8 @@ const ui = {
     hideNav: '隐藏导航'
   },
   about: {
-    title: 'About Me',
-    subtitle: 'Contact Details'
+    title: '关于我',
+    subtitle: '联系方式'
   },
   skills: {
     title: 'Skills',
@@ -36,26 +36,8 @@ const ui = {
   },
   footer: {
     description: 
-    `This site is developed in React.js by&nbsp;
-    <a
-      href="https://suddi.github.io"
-      title="Sudharshan Ravindran"
-      target="_blank"
-      rel="noopener noreferrer">
-      Sudharshan Ravindran
-    </a>
-    from the original design of Ceevee from&nbsp;
-    <a
-      href="http://www.styleshout.com/"
-      title="Styleshout"
-      target="_blank"
-      rel="noopener noreferrer">
-      Styleshout
-    </a>
-    And it is reconstructed with ES6 by 
-    <a href="https://" title="GuoXiaoyang" target="_blank" rel="noopener noreferrer">
-    GuoXiaoyang
-    </a>`
+    `该简历模板基于React开发，原作者为{author1}，设计作者为{author2}。由{author3}基于ES6进行重构，并添加中英文语言支持`,
+    authorName: '郭小洋'
   }
 }
 export default  ui;

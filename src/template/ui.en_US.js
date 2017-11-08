@@ -35,26 +35,8 @@ const ui = {
   },
   footer: {
     description: 
-    `This site is developed in React.js by&nbsp;
-    <a
-      href="https://suddi.github.io"
-      title="Sudharshan Ravindran"
-      target="_blank"
-      rel="noopener noreferrer">
-      Sudharshan Ravindran
-    </a>
-    from the original design of Ceevee from&nbsp;
-    <a
-      href="http://www.styleshout.com/"
-      title="Styleshout"
-      target="_blank"
-      rel="noopener noreferrer">
-      Styleshout
-    </a>
-    And it is reconstructed with ES6 by 
-    <a href="https://" title="GuoXiaoyang" target="_blank" rel="noopener noreferrer">
-    GuoXiaoyang
-    </a>`
+    `This site is developed in React.js by {author1} from the original design of Ceevee from {author2}. And it is refactored with ES6 by {author3}`,
+    authorName: 'GuoXiaoyang'
   }
 }
 export default  ui;

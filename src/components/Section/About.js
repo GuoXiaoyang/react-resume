@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { FormattedMessage } from 'react-intl';
 const About = ({ content }) => (
   <section id="about">
     <div className="row">
@@ -7,13 +7,13 @@ const About = ({ content }) => (
         <img className="profile-pic" src={content.picture} alt={content.name}/>
       </div>
       <div className="ten columns main-col">
-        <h2>About Me</h2>
+        <h2><FormattedMessage id="about.title" defaultMessage="About Me"/></h2>
         {content.summary.map((content, index) => (
               <p key={index}>{content}</p>
           ))}
         <div className="row">
           <div className="columns contact-details">
-            <h2>Contact Details</h2>
+            <h2><FormattedMessage id="about.subtitle" defaultMessage="Contact Details"/></h2>
             <p className="address">
               <span>{content.location.city}</span>
               <br/>
