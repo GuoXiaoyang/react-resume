@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormattedMessage, injectIntl } from 'react-intl';
 import ReactModal from 'react-modal';
 
 const Modal = ({ entry, isOpen, onRequestClose }) =>{
@@ -20,9 +21,11 @@ const Modal = ({ entry, isOpen, onRequestClose }) =>{
       </div>
       <div className="link-box">
         <a href={entry.website} target="_blank" rel="noopener noreferrer">
-        Details
+          <FormattedMessage id="modal.details" defaultMessage="Details"/>
         </a>
-        <a className="popup-modal-dismiss" onClick={onRequestClose}>Close</a>
+        <a className="popup-modal-dismiss" onClick={onRequestClose}>
+          <FormattedMessage id="modal.close" defaultMessage="Close"/>
+        </a>
       </div>
     </ReactModal>
   );

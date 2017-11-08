@@ -8,7 +8,7 @@ class Entry extends React.Component {
     super(props);
     this.state = { modalOpen: false };
     this.handleCloseModal = this.handleCloseModal.bind(this);
-    this.handleCloseModal = this.handleCloseModal.bind(this);
+    this.handleOpenModal = this.handleOpenModal.bind(this);
   }
 
   handleOpenModal() {

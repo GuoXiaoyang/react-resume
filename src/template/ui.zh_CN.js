@@ -19,20 +19,20 @@ const ui = {
     subtitle: '联系方式'
   },
   skills: {
-    title: 'Skills',
+    title: '技能',
   },
   modal: {
-    details: 'Details',
-    close: 'Close'
+    details: '详情',
+    close: '关闭'
   },
   portfolio: {
-    title: 'Portfolio'
+    title: '作品集'
   },
   work: {
-    title: 'Work'
+    title: '工作经历'
   },
   references: {
-    title: 'References'
+    title: '评价'
   },
   footer: {
     description: 
