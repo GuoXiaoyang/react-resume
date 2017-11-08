@@ -1,5 +1,7 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+
+
+.locale-selector {
+  position: fixed;
+  right:20px;
+  bottom: 20px;
 }

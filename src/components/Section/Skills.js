@@ -27,7 +27,7 @@ class Entry extends React.Component {
         onMouseEnter={this.handleMouseEnter}
         onMouseLeave={this.handleMouseLeave}
         style={this.state.style}/>
-          <em>{this.props.entry.name}</em>
+        <em>{this.props.entry.name}</em>
       </li>
     );
   }

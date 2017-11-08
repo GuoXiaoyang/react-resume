@@ -50,8 +50,8 @@ const Portfolio = ({ content }) => {
           <h1>Portfolio</h1>
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
             {portfolio.map((entry, index) => (
-                <Entry key={index} index={index} entry={entry}/>
-              ))}
+              <Entry key={index} index={index} entry={entry}/>
+            ))}
           </div>
         </div>
       </div>

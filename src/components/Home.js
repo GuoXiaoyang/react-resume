@@ -3,7 +3,6 @@ import Header from './Header/Header';
 import Navbar from './Header/Navbar';
 import Banner from './Header/Banner';
 import ScrollDown from './Header/ScrollDown';
-import Loading from './Loading';
 import Section from './Section'; 
 
 const Home = ({ resume, navigation }) => (
