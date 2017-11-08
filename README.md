@@ -1,4 +1,9 @@
-# suddi.github.io
+# React-Resume template
+A project forked by https://github.com/suddi/suddi.github.io.
+
+suddi.github.io is a static single-page application resumer-builder developed using React.js. It uses the Ceevee template designed by Styleshout, ported over to React.js, and follows a customized version of the JSON Resume schema to store a Curriculum Vitae in JSON format.
+
+I am not familiar with React ES5 grammer and I want to internationalize it with Chinese, So I forked this repo and reconstruct it with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 [![Website](https://img.shields.io/website-up-down-green-red/http/suddi.github.io.svg)](https://suddi.github.io)
 [![CircleCI](https://img.shields.io/circleci/project/github/suddi/suddi.github.io/master.svg)](https://circleci.com/gh/suddi/suddi.github.io)
@@ -16,20 +21,19 @@
 The site has been shown as demo React.js project on the following sites:
 
 * [react.rocks](https://react.rocks/example/JSON_Resume)
-* [爱前端](http://www.17shulihua.com/archives/404)
 * [reactjsexample](https://reactjsexample.com/a-static-single-page-application-resume-builder-developed-using-react-js/)
 
 ## Installation
 
-````sh
-npm install
+````
+yarn install
 ````
 
 ## Usage
 
 To run `webpack-dev-server` for local environment:
 
-````sh
+````
 npm run bundle
 
 npm start
@@ -38,7 +42,7 @@ You can view the site at [`http://localhost:8080`](http://localhost:8080).
 
 To bundle for deployment:
 
-````sh
+````
 npm run bundle
 ````
 
