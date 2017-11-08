@@ -18,9 +18,11 @@ class Header extends React.Component {
   render() {
     const style = {height: this.state.height};
     return (
-      <header id="home" style={style}>
-        {this.props.children}
-      </header>
+      <div className="header-container">
+        <header id="home" style={style}>
+          {this.props.children}
+        </header>
+      </div>
     );
   }
 }
