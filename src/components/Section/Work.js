@@ -1,7 +1,7 @@
 import React from 'react';
 import BulletPoints from './BulletPoints';
 import Datetime from '../../utils/datetime';
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage, FormattedDate } from 'react-intl';
 
 const Entry = ({ index, total, entry }) => {
 
@@ -19,7 +19,11 @@ const Entry = ({ index, total, entry }) => {
           <span> &bull; </span>
           <span className="info-summary">{entry.summary}</span>
           <span> &bull; </span>
-          <em className="date">{startDate} - {endDate}</em>
+          <em className="date">
+            <FormattedDate value={startDate} year='numeric' month='short'/>
+             - 
+            <FormattedDate value={endDate} year='numeric' month='short'/>
+          </em>
         </p>
         <BulletPoints points={entry.highlights} />
       </div>

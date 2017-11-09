@@ -1,3 +1,4 @@
+
 const resume = {
   "basics": {
     "name": "GuoXiaoyang",
@@ -28,8 +29,8 @@ const resume = {
     "company": "<COMPANY_NAME>",
     "position": "<POSITION>",
     "website": "<COMPANY_WEBSITE>",
-    "startDate": "<START_DATE>",
-    "endDate": "<END_DATE>",
+    "startDate": "2016-06-15",
+    "endDate": "2017-04-23",
     "summary": "<SUMMARY>",
     "highlights": [
       "<HIGHTLIGHT_1>",

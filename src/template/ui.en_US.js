@@ -30,6 +30,9 @@ const ui = {
   work: {
     title: 'Work'
   },
+  education: {
+    title: 'Education'
+  },
   references: {
     title: 'References'
   },

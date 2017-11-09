@@ -31,6 +31,9 @@ const ui = {
   work: {
     title: '工作经历'
   },
+  education: {
+    title: '教育'
+  },
   references: {
     title: '评价'
   },

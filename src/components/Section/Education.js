@@ -1,22 +1,43 @@
 import React from 'react';
 import Datetime from '../../utils/datetime';
-
-const Eduction = ({ content }) => {
-  const startDate = Datetime.getDisplayFromDate(content.startDate);
-  const endDate = Datetime.getDisplayFromDate(content.endDate);
+import { FormattedMessage, FormattedDate } from 'react-intl';
+const Entry = ({ entry }) => {
+  const startDate = Datetime.getDisplayFromDate(entry.startDate);
+  const endDate = Datetime.getDisplayFromDate(entry.endDate);
   return (
     <div className="row item">
       <div className="twelve columns">
-          <h3>{content.institution}</h3>
+          <h3>{entry.institution}</h3>
           <p className="info">
-            {content.area}
+            {entry.area}
             <span> &bull; </span>
-            <span className="info-summary">{content.summary}</span>
+            <span className="info-summary">{entry.summary}</span>
             <span> &bull; </span>
-            <em className="date">{startDate} - {endDate}</em>
+            <em className="date">
+            <FormattedDate value={startDate} year='numeric' month='short'/>
+             - 
+            <FormattedDate value={endDate} year='numeric' month='short'/>
+            </em>
           </p>
       </div>
     </div>
 )};
 
-export default Eduction;
+const Education = ({ content }) => (
+  <section id='education'>
+    <div className='row education'>
+      <div className='two columns header-col'>
+        <h1>
+        <FormattedMessage id="education.title" defaultMessage="Education"/>
+        </h1>
+      </div>
+      <div className='ten columns main-col'>
+        {content.map((entry, index) => (
+          <Entry key={index} entry={entry}/>
+        ))}
+      </div>
+    </div>
+  </section>
+);
+
+export default Education;
