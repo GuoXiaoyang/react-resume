@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Carousel from 'nuka-carousel';
-
+import { FormattedMessage } from 'react-intl';
 
 const Entry = ({ entry }) => (
   <div>
@@ -31,7 +31,7 @@ const References = ({ content }) => {
         <div className='row'>
           <div className='two columns header-col'>
             <h1>
-              <span>References</span>
+              <FormattedMessage id="references.title" defaultMessage="References"/>
             </h1>
           </div>
             <div className='columns flex-container'>

@@ -1,5 +1,7 @@
 
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
+
 class Entry extends React.Component {
   constructor(props) {
     super(props);
@@ -60,7 +62,7 @@ const Skills = ({ content }) => (
     <div className="row skill">
       <div className="two columns header-col">
         <h1>
-          <span>Skills</span>
+        <FormattedMessage id="skills.title" defaultMessage="Skills"/>
         </h1>
       </div>
       <div className="ten columns main-col">

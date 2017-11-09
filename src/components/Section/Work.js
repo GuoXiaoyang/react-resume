@@ -1,6 +1,7 @@
 import React from 'react';
 import BulletPoints from './BulletPoints';
 import Datetime from '../../utils/datetime';
+import { FormattedMessage } from 'react-intl';
 
 const Entry = ({ index, total, entry }) => {
 
@@ -34,7 +35,7 @@ const Work = ({ content }) => {
       <div className='row work'>
         <div className='two columns header-col'>
           <h1>
-            <span>Work</span>
+          <FormattedMessage id="work.title" defaultMessage="Work"/>
           </h1>
         </div>
         <div className='ten columns main-col'>
