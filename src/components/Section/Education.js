@@ -16,7 +16,7 @@ const Entry = ({ entry }) => {
             <em className="date">
             <FormattedDate value={startDate} year='numeric' month='short'/>
              - 
-            <FormattedDate value={endDate} year='numeric' month='short'/>
+            <FormattedDate value={endDate==='Present'?Date.now():endDate} year='numeric' month='short'/>
             </em>
           </p>
       </div>

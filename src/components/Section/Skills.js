@@ -8,6 +8,8 @@ class Entry extends React.Component {
     this.state = {
       style: { background: '#313131' }   
     };
+    this.handleMouseEnter = this.handleMouseEnter.bind(this);
+    this.handleMouseLeave = this.handleMouseLeave.bind(this);
   }
   handleMouseEnter() {
     this.setState({

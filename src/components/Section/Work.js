@@ -20,9 +20,9 @@ const Entry = ({ index, total, entry }) => {
           <span className="info-summary">{entry.summary}</span>
           <span> &bull; </span>
           <em className="date">
-            <FormattedDate value={startDate} year='numeric' month='short'/>
+            <FormattedDate value={startDate} year='numeric' month='short' />
              - 
-            <FormattedDate value={endDate} year='numeric' month='short'/>
+            <FormattedDate value={endDate==='Present'?Date.now():endDate} year='numeric' month='short'/>
           </em>
         </p>
         <BulletPoints points={entry.highlights} />
