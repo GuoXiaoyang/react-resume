@@ -1,27 +1,15 @@
 # React-Resume template
 A project forked by https://github.com/suddi/suddi.github.io.
 
-suddi.github.io is a static single-page application resumer-builder developed using React.js. It uses the Ceevee template designed by Styleshout, ported over to React.js, and follows a customized version of the JSON Resume schema to store a Curriculum Vitae in JSON format.
-
-I am not familiar with React ES5 grammer and I want to internationalize it with Chinese, So I forked this repo and reconstruct it with [Create React App](https://github.com/facebookincubator/create-react-app).
-
-[![Website](https://img.shields.io/website-up-down-green-red/http/suddi.github.io.svg)](https://suddi.github.io)
-[![CircleCI](https://img.shields.io/circleci/project/github/suddi/suddi.github.io/master.svg)](https://circleci.com/gh/suddi/suddi.github.io)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/69d83996bf574c919ae2d0ce800bb78e)](https://www.codacy.com/app/suddir/suddi-github-io?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=suddi/suddi.github.io&amp;utm_campaign=Badge_Grade)
-[![Greenkeeper badge](https://badges.greenkeeper.io/suddi/suddi.github.io.svg)](https://greenkeeper.io/)
-[![David](https://img.shields.io/david/suddi/suddi.github.io.svg)](https://david-dm.org/suddi/suddi.github.io)
-[![David](https://img.shields.io/david/dev/suddi/suddi.github.io.svg)](https://david-dm.org/suddi/suddi.github.io?type=dev)
-[![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/suddi/suddi-github-io)
-[![license](https://img.shields.io/github/license/suddi/suddi.github.io.svg)](https://github.com/suddi/suddi.github.io/blob/master/LICENSE)
 
 [`suddi.github.io`](https://suddi.github.io) is a static single-page application resumer-builder developed using React.js. It uses the Ceevee template designed by [Styleshout](http://www.styleshout.com), ported over to React.js, and follows a customized version of the [JSON Resume schema](https://jsonresume.org/schema/) to store a Curriculum Vitae in JSON format.
 
-## Featured
 
-The site has been shown as demo React.js project on the following sites:
+I am not familiar with React ES5 grammer and I want to internationalize it with Chinese, So I forked this repo and reconstruct it with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-* [react.rocks](https://react.rocks/example/JSON_Resume)
-* [reactjsexample](https://reactjsexample.com/a-static-single-page-application-resume-builder-developed-using-react-js/)
+[My own resume](https://guoxiaoyang.github.io/react-resume)
+
+
 
 ## Installation
 
@@ -31,19 +19,17 @@ yarn install
 
 ## Usage
 
-To run `webpack-dev-server` for local environment:
+Run in development:
 
 ````
-npm run bundle
-
-npm start
+yarn start
 ````
-You can view the site at [`http://localhost:8080`](http://localhost:8080).
+You can view the site at [`http://localhost:3000`](http://localhost:3000).
 
-To bundle for deployment:
+Run in production
 
 ````
-npm run bundle
+yarn build
 ````
 
-You can view the live site at [suddi.io](https://suddi.io)
+You can view the live site at [this site](https://guoxiaoyang.github.io/react-resume)
