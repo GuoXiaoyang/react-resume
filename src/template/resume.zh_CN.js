@@ -60,7 +60,7 @@ const resume = {
   },
   "work": [
     {
-      "company": "独立开发者",
+      "company": "个人开发者",
       "position": "前端开发工程师",
       "website": "http://guoxiaoyang.xyz",
       "startDate": "2017-07-01",
@@ -80,9 +80,9 @@ const resume = {
       "endDate": "2017-04-23",
       "summary": "北京市",
       "highlights": [
-        "负责华为高端手机HiXXX-160项目中camera成像算法调试，优化图像噪声特性，前后调试10余版本，关闭15+问题单",
-        "负责华为手机camera成像多个预研算法评测及分析方案制定及实施，输出方案及报告20+份", 
-        "带领小团队完成华为中端手机 HiXXX-120项目图像质量调试及验证，负责团队任务分解、目标制定、进展汇报及最终报告输出"
+        "参与华为高端手机HiXXX项目中camera成像算法调试，优化图像噪声特性，前后调试10余版本，关闭15+问题单",
+        "参与华为手机camera成像多个预研算法评测及分析方案制定及实施，输出方案及报告20+份", 
+        "带领小团队完成华为中端手机 HiXXX项目图像质量调试及验证，负责团队任务分解、目标制定、进展汇报及最终报告输出"
       ]
     },
     {
@@ -147,31 +147,106 @@ const resume = {
       "category": "Web",
       "releaseDate": "2017-07-31",
       "website": "https://guoxiaoyang.github.io/WikipediaViewer/",
-      "summary": "你好",
+      "summary": "利用Wiki API实现的搜索应用",
       "image": {
-        "modal": "./WikipediaViewer.PNG",
-        "thumb": "./WikipediaViewer.PNG"
+        "modal": "./images/WikipediaViewer.png",
+        "thumb": "./images/WikipediaViewer.png"
       },
-      "keywords": ["Angular", "API"]
+      "keywords": ["Angular", "API","Wiki"]
+    },
+    {
+      "name": "计算器",
+      "publisher": "郭小洋",
+      "category": "Web",
+      "releaseDate": "2017-08-11",
+      "website": "https://guoxiaoyang.github.io/JavaScript_Calculator/",
+      "summary": "基于React的计算器",
+      "image": {
+        "modal": "./images/Calculator.png",
+        "thumb": "./images/Calculator.png"
+      },
+      "keywords": ["React", "Calculator"]
+    },
+    {
+      "name": "Simon游戏",
+      "publisher": "郭小洋",
+      "category": "Web",
+      "releaseDate": "2017-08-20",
+      "website": "https://guoxiaoyang.github.io/Simon-Game/",
+      "summary": "基于React的Simon游戏",
+      "image": {
+        "modal": "./images/SimonGame.png",
+        "thumb": "./images/SimonGame.png"
+      },
+      "keywords": ["React", "Game"]
+    },
+    {
+      "name": "番茄时钟",
+      "publisher": "郭小洋",
+      "category": "Web",
+      "releaseDate": "2017-09-08",
+      "website": "https://guoxiaoyang.github.io/typescript-react-pomodoro/",
+      "summary": "基于React的可自定义工作与休息时间的番茄时钟",
+      "image": {
+        "modal": "./images/PomodoroClock.png",
+        "thumb": "./images/PomodoroClock.png"
+      },
+      "keywords": ["React", "Pomodoro"]
+    },
+    {
+      "name": "生命游戏",
+      "publisher": "郭小洋",
+      "category": "Web",
+      "releaseDate": "2017-09-15",
+      "website": "https://guoxiaoyang.github.io/game-of-life/",
+      "summary": "基于React的可自定义参数的生命游戏",
+      "image": {
+        "modal": "./images/GameOfLife.gif",
+        "thumb": "./images/GameOfLife.png"
+      },
+      "keywords": ["React", "Game"]
+    },
+    {
+      "name": "地下城游戏",
+      "publisher": "郭小洋",
+      "category": "Web",
+      "releaseDate": "2017-09-22",
+      "website": "https://guoxiaoyang.github.io/DungeonCrawlerGame/",
+      "summary": "基于React的可升级打怪的地下城游戏",
+      "image": {
+        "modal": "./images/CrawlerGame.gif",
+        "thumb": "./images/CrawlerGame.png"
+      },
+      "keywords": ["React", "Game"]
+    },
+    {
+      "name": "数据可视化",
+      "publisher": "郭小洋",
+      "category": "Web",
+      "releaseDate": "2017-09-30",
+      "website": "https://guoxiaoyang.github.io/DataVisualizationProjects/",
+      "summary": "基于React与D3.js的数据可视化",
+      "image": {
+        "modal": "./images/DataVisualization.png",
+        "thumb": "./images/DataVisualization.png"
+      },
+      "keywords": ["React", "D3","Data Visualization"]
+    },
+    {
+      "name": "VotingApp",
+      "publisher": "郭小洋",
+      "category": "Web",
+      "releaseDate": "2017-10-15",
+      "website": "http://47.95.220.98:5000",
+      "summary": "基于React、Node、Express、MongoDB的投票App，用户可以注册创建删除自己的投票，也可以基于IP或者认证用户进行投票，投票结果用饼图进行可视化，每个用户或者IP对同一题不可重复投票",
+      "image": {
+        "modal": "./images/VotingApp.png",
+        "thumb": "./images/VotingApp.png"
+      },
+      "keywords": ["React", "Node", "Voting"]
     }
   ],
   "skills": [
-    {
-      "title": "编程语言",
-      "description": [
-        "熟悉JavaScript/HTML/CSS，Python", 
-        "熟悉React/Redux及相关技术栈", 
-        "熟悉Node.js后端开发",
-        "目前专注于基于React-Node的全栈开发"
-      ],
-      "skillDetails": [
-        {
-          "name": "JavaScript",
-          "level": "80",
-          "keywords": ["<KEYWORD_1>", "<KEYWORD_2>", "<KEYWORD_3>"]
-        }
-      ]
-    },
     {
       "title": "编程语言",
       "description": [
@@ -219,7 +294,7 @@ const resume = {
     {
       "title": "设计技能",
       "description": [
-        "熟悉PS/AI使用，了解UI设计及与前段协作"
+        "熟悉PS/AI使用，了解UI设计及与前端协作"
       ],
       "skillDetails": [
         {
@@ -258,7 +333,13 @@ const resume = {
       "name": "自我评价",
       "position": "Web前端工程师",
       "company": "个人开发者",
-      "reference": "过去失败的爬起来即可"
+      "reference": "拥有自己的生活而不仅仅是活着"
+    },
+    {
+      "name": "自我评价",
+      "position": "Web前端工程师",
+      "company": "个人开发者",
+      "reference": "如果什么是努力解决不了的，那就加倍努力"
     }
   ]
 };
